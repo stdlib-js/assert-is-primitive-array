@@ -38,7 +38,8 @@
   },
   "dependencies": {
     "@stdlib/assert-is-primitive": "^0.1.1",
-    "@stdlib/assert-tools-array-like-function": "^0.1.0"
+    "@stdlib/assert-tools-array-like-function": "^0.1.0",
+    "@stdlib/error-tools-fmtprodmsg": "^0.1.1"
   },
   "devDependencies": {
     "@stdlib/array-uint8": "^0.1.1",
