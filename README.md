@@ -42,6 +42,11 @@ limitations under the License.
 ## Usage
 
 ```javascript
+import isPrimitiveArray from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-primitive-array@esm/index.mjs';
+```
+The previous example will load the latest bundled code from the esm branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/assert-is-primitive-array/tags). For example,
+
+```javascript
 import isPrimitiveArray from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-primitive-array@v0.2.0-esm/index.mjs';
 ```
 
@@ -81,7 +86,7 @@ bool = isPrimitiveArray( [ new String( 'abc' ), '3.0' ] );
 <script type="module">
 
 import Number from 'https://cdn.jsdelivr.net/gh/stdlib-js/number-ctor@esm/index.mjs';
-import isPrimitiveArray from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-primitive-array@v0.2.0-esm/index.mjs';
+import isPrimitiveArray from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-primitive-array@esm/index.mjs';
 
 var bool = isPrimitiveArray( [ '3', 2, null ] );
 // returns true
