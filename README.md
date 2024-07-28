@@ -42,7 +42,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import isPrimitiveArray from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-primitive-array@esm/index.mjs';
+import isPrimitiveArray from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-primitive-array@v0.2.2-esm/index.mjs';
 ```
 
 #### isPrimitiveArray( value )
@@ -81,7 +81,7 @@ bool = isPrimitiveArray( [ new String( 'abc' ), '3.0' ] );
 <script type="module">
 
 import Number from 'https://cdn.jsdelivr.net/gh/stdlib-js/number-ctor@esm/index.mjs';
-import isPrimitiveArray from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-primitive-array@esm/index.mjs';
+import isPrimitiveArray from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-primitive-array@v0.2.2-esm/index.mjs';
 
 var bool = isPrimitiveArray( [ '3', 2, null ] );
 // returns true
